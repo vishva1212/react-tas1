@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Parent from './components/Parent';
 import State from './State';
+import Statechild from "./Statechild";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   <Parent/>
   <State/>
+  <Statechild/>
   </>
   
   // <React.StrictMode>
